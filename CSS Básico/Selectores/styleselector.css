@@ -1,0 +1,9 @@
+/* Se le pone un punto(.) antes para referenciar una clase */
+.lista {
+    color:red;
+}
+
+/* Se le pone un hagstag (#) antes para referenciar un id */
+#etiqueta-clave {
+    color:blueviolet;
+}
