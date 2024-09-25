@@ -1,0 +1,31 @@
+.parrafe {
+    /* Propiedad de fuente (1)*/
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    /* Propiedad de fuente con comillas (2) */
+    font-family: 'Boska-Black';
+
+    /* Tamaño de letra */
+    font-size: 16px;
+    
+    /* Define grosor de tipografía */
+    font-weight: bolder;
+
+    /* Define el estilo de la tipografía */
+    font-style: italic;
+
+    /* Aliea texto dentro de su CONTENEDOR */
+    text-align: justify, center;
+
+    /*  */
+    text-decoration: underline;
+
+    /* Distancia entre lineas */
+    line-height: 2;
+
+    /* Espacio entre letras */
+    letter-spacing: 2px;
+
+    /* Todo el texto en mayuscula, minuscula, etc... */
+    text-transform: capitalize;
+}
