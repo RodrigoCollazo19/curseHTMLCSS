@@ -1,0 +1,25 @@
+/* Tiene 4 propiedades: border width, color, style y radius*/
+div {
+    background-color: bisque;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+/* Forma (1) */
+div {
+    border-width: 3px;
+    border-color: aqua;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+/* Forma (2) reemplaza el width, syle y color */
+div {
+    border: 3px solid aqua; 
+}
+
+/* Poner bordes en algun lado */
+div {
+    border-top-color: black;
+    border-top-style: dotted;
+}
