@@ -1,0 +1,30 @@
+div {
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+    font-family: sans-serif;
+    border-left: 5px solid #999;
+    font-size: 16px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    /* Te da un porcentaje de la capacidad total actual de la pantalla */
+    width: 50vw;
+}
+
+
+/* "em" es una medida que toma la medida del elemento padre y multiplicarlo por su medida. En este caso: 14x2=28px */
+p {
+    background-color: rgb(56, 56, 56);
+    color: #979797;
+    width: 100%;
+    font-size: 1em;
+}
+
+/* "rem" es lo mismo que em pero busca el elemento raiz, es decir HTML */
+
+/* Si su padre no tiene definida la medida busca a su abuelo, y asi sucesivamente */
+
+/* Para tamaños fuente y espaciados (tipografia en general): em y rem*/
+/* Para armar dimensiones de elementos:  em, rem, vw, vh*/
