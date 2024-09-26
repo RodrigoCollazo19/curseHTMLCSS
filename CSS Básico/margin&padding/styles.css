@@ -1,0 +1,31 @@
+/* PADDING (espaciado entre el contenido y el borde)*/
+.form_input1{
+    padding: 5px
+    /* (1) Un valor: se aumenta en todas las direcciones */
+}
+.formulario {
+    background-color: aqua;
+    /* (2) Cuatro valores: va en sentido de las agujas del reloj */
+    padding: 10px 0 5px 10px;
+}
+
+.form_input2 {
+    /* (3) Todos sus comandos: otra forma con todos sus comandos */
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.form_input3 {
+    /* (4) Dos valores: define primero de forma vertical y luego horizontal */
+    padding: 10px 10px;
+}
+
+/* MARGIN (espacio entre elementos)*/
+.box {
+    background-color: yellowgreen;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
