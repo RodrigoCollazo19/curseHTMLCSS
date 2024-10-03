@@ -1,0 +1,39 @@
+/* Gradientes: transicion de color */
+.box {
+    width: 400px;
+    height: 300px;
+    /* Primer tipo: lineal */
+    background: rgb(228, 228, 228);
+    margin: auto;
+    border-radius: 3px;
+    margin-top: 20px;
+    border-top: 6px solid rgb(27, 27, 27);
+    /* 1. pixeles que se corra horizontalmente */
+    /* 2. pixeles que se corra verticualmente */
+    /* 3. difuminado */
+    /* 4. cuanto se expande */
+    /* 5. color */
+    box-shadow: 0px 0px 100px 0px black;
+    padding: 20px;
+}
+
+h2 {
+    padding: 5px 10px;
+    font-family: Satoshi-Medium;
+    color: rgb(22, 22, 22);
+}
+
+p {
+    font-family: Satoshi-Regular;
+    color: rgb(22, 22, 22);
+    text-align: justify;
+    list-style: none;
+}
+
+button {
+    padding: 5px 10px;
+    border-width: 3px;
+    border-color: rgb(61, 61, 61);
+    border-style: solid;
+    border-radius: 2px;
+}
