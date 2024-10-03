@@ -1,0 +1,25 @@
+/* Gradientes: transicion de color */
+.box {
+    width: 400px;
+    height: 400px;
+    /* Primer tipo: lineal */
+    background: linear-gradient(transparent,black, transparent);
+    margin: 0;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid rgb(27, 27, 27);
+}
+
+.box2 {
+    background: radial-gradient(black, transparent);
+    width: 400px;
+    height: 400px;
+    /* Primer tipo: lineal */
+    background: radial-gradient(black, transparent);
+    margin: 0;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 20px;
+    border-top: 6px solid rgb(27, 27, 27);
+}
