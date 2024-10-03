@@ -1,0 +1,56 @@
+body{
+    background:rgb(236, 236, 236);
+    color: rgb(236, 236, 236);
+}
+
+.card {
+    margin: auto;
+    margin-top: 20px;
+    background: linear-gradient(#4b1e70, #9c4bdd);
+    text-align: center;
+    width: 400px;
+    padding: 10px;
+    border-top: 6px solid #24073b;
+    box-shadow: 0px 0px 45px rgba(12, 12, 12, 0.467);
+    border-radius: 5px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.blue-card {
+    background: linear-gradient(rgb(2, 2, 110), rgb(40, 40, 78));
+    border-top: 6px solid #0c083d
+}
+
+.red-card {
+    background: linear-gradient(rgb(117, 3, 3), rgb(153, 60, 60));
+    border-top: 6px solid #3d0a0a;
+}
+.card_title {
+    font-family: 'Satoshi-Medium';
+    margin: 0;
+}
+
+span {
+    font-family: 'Satoshi-Regular';
+    font-size: 25px;
+}
+
+.card_subtitle {
+    font-family: 'Satoshi-Regular';
+    font-weight: 200;
+    padding: 10px;
+    margin: 0;
+}
+
+.card_desc {
+    text-align: justify;
+    font-family: 'Satoshi-Regular';
+    margin: auto;
+    padding: 10px 20px 20px 20px;
+}
+
+.card_img {
+    width: 150px;
+    border-radius: 50%;
+}
