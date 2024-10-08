@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fieldset</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="../../CSS Básico/tipografias-externas/fonts.css">
+</head>
+<body>
+
+    <!-- FIELDSET se utiliza para seccionar  -->
+    <form>
+        <h2>Contacto</h2>
+        <fieldset>
+            <legend>INFORMACIÓN BÁSICA</legend>
+            <div class="form_input">
+                <label for="nombre">Ingrese nombre</label>
+                <input type="text" placeholder="John Doe" id="nombre">
+            </div>
+            <div class="form_input">
+                <label>Ingrese email</label>
+                <input type="email" placeholder="example@gmail.com">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>ADICIONAL</legend>
+            <div class="form_input">
+                <label>
+                    Referente
+                    <input list="referente">
+                    <datalist id="referente" name="type-of-user">
+                        <option>Redes</option>
+                        <option>Empresa</option>
+                        <option>Otros</option>
+                    </datalist>
+                </label>
+            </div>
+            
+            <div class="form_input">
+                <label>
+                    Tipo de usuario
+                    <select name="type-of-user">
+                        <option value="user1">Monotributista</option>
+                        <option value="user2">Resposable Inscripto</option>
+                        <option value="user3">Consumidor Final</option>
+                    </select>
+                </label>
+            </div>
+    
+            <div class="form_input">
+                <label>Ingrese descripcion</label>
+                <textarea maxlength="140" placeholder="Deja tu mensaje"></textarea>
+            </div>
+        </fieldset>
+
+        <div class="form_input">
+            <label>
+                Acepto los terminos y condiciones
+                <input type="checkbox" class="checkbox">
+            </label>
+        </div>
+    </form>
+</body>
+</html>
+
+<!-- Es como un input pero te deja escribir mas -->
