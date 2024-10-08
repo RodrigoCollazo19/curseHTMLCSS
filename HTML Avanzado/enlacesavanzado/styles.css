@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #f7f7f7;
+    background-color: #3a3a3a;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+form {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    /* Maximo tamaño para que se estire */
+    max-width: 600px;
+    /* para que este siempre centrado */
+    margin: auto;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.4);
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.form_input {
+    padding: 6px 20px;
+}
+
+/* Para seleccionar que dos etiquetas tengan la misma propiedad */
+input, textarea, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 12px;
+    border: none;
+    border: 1px solid #f7f7f7;
+    border-left: 3px solid #f7f7f7;
+    border-radius: 3px;
+    background-color: transparent;
+    color: #f7f7f7;
+    /* define de que forma se va a desplazar el input */
+    resize: none;
+}
+
+textarea {
+    font-family: sans-serif;
+    height: 100px;
+}
+
+label {
+    font-size: 0.9em;
+    line-height: 2;
+}
+
+.checkbox {
+    width: auto;
+}
+
+option {
+    background-color: #3a3a3a;
+}
+
+a {
+    color: #69f;
+    text-decoration: none;
+}
