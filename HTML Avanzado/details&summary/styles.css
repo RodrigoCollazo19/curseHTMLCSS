@@ -1,0 +1,19 @@
+body {
+    background: #1d1d1d;
+}
+
+div {
+    border: 2px solid #6b6b6b;
+}
+
+details {
+    background: transparent;
+    padding: 10px;
+    border: 1px solid #6b6b6b;
+    color: #afafaf;
+}
+
+summary{
+    background: transparent;
+    color: #ebebeb;
+}
