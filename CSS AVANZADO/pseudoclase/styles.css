@@ -52,3 +52,24 @@ a:visited {
 }
 
 /* PAGINA: MDN pseudoclases */
+
+
+/* NUEVAS PSEUDOCLASES */
+/* IS: Agrupa elementos */
+ul:is(.elemento1, .elemento2, .elemento3){
+    color: blue;
+}
+
+/* WHERE: es la misma especificidad igual a ponerlo por separado */
+ul:where(.elemento1, .elemento2, .elemento3){
+    color: blue;
+}
+
+/* HAS: en caso de que ul tenga elemento1 */
+ul:has(.elemento1) {
+
+}
+
+label:has(input:valid) {
+    
+}
