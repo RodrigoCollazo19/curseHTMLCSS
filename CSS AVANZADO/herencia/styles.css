@@ -1,0 +1,14 @@
+/* ORDEN de especificidad: (1) !important (2) estilo en linea (3) id (4) class (5) elemento */
+
+#principal {
+    color: green;
+}
+
+.titulo {
+    color: blue !important;
+}
+
+h1 {
+    color: red;
+}
+
