@@ -1,0 +1,38 @@
+/* SELECTOR POR ATRIBUTO */
+/* Seleccionar imagen específica */
+img[src="imagenhtml.png"] {
+    width: 300px;
+    height: 300px;
+}
+
+/* Seleccionar elemento de aquellas propiedades que terminen en "png" */
+img[src$="png"] {
+    width: 100%;
+}
+
+/* Seleccionar elemento que comience con "proyecto " */
+img[src^="proyecto"] {
+
+}
+
+/* SELECTOR POR DESCENDENCIA */
+/* Selecionar elemento en cascada, en este caso se seleccionan los elementos <li> que estan adentro de la etiqueta <ul> */
+ul li {
+    color:red;
+}
+
+/* Seleccionar elemento en casada que sea hijo directo */
+ul > li {
+    color: black;
+}
+
+/* SELECTOR POR ADYACENTE */
+/* Para seleccionar al proximo elemento, solo al siguiente elemento se le aplica. En este caso darle estilo al parrafo que tenga antes un h1 */
+h1 + p {
+    color: blue;
+}
+
+/* Para seleccionar al proximo elemento pero de manera general. En este caso afecta a todos los parrafos que antes tengan un h1 */
+h1 ~ p {
+    color: blue;
+}
