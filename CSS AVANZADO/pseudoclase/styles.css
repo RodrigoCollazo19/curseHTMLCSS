@@ -1,0 +1,54 @@
+:root {
+    color: aqua;
+}
+
+h1 {
+    color:blanchedalmond;
+}
+
+/* hover: evento cuando este el mouse encima */
+h1 :hover {
+    color: red;
+}
+
+/* active: evento cuando se da click */
+h1 :active {
+    background-color: antiquewhite;
+}
+
+/* para seleccionar el primer elemento de li */
+li :first-child {
+
+}
+
+/* para seleccionar el ultimo */
+li : :last-child {
+
+}
+
+/* seleccionar elemento especifico */
+li : :nth-child(2) {
+
+} 
+
+/* para elementos vacios */
+div :empty {
+
+}
+
+/* Si el input está "checkeado" */
+input[type="checkbox"] :checked {
+    margin: 0;
+}
+
+/* enlaces no visitados */
+a:link {
+    color: red;
+}
+
+/* enlaces visitados */
+a:visited {
+    color: green;
+}
+
+/* PAGINA: MDN pseudoclases */
