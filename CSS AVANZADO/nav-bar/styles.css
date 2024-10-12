@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.nav__bar {
+    background-color: #48e;
+    height: 40px;
+}
+
+.nav__list {
+    margin: 0;
+    text-align: center;
+}
+
+.nav__item {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__link {
+    display: inline-block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #48e;
+}
+
+.nav__link:hover {
+    border-bottom: 2px solid #6af;
+}
+
+.link--button {
+    border: 1px solid #fff;
+    color: #48e;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 5px 10px;
+    color: #131313;
+}
+
+.link--button:hover {
+    background: transparent;
+    color: #fff;
+}
