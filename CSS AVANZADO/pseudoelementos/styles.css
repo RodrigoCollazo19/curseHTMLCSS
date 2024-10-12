@@ -1,0 +1,13 @@
+/* Se declaran con "::" */
+/* La primer letra */
+h1::first-letter {
+    color: red;
+}
+
+div::first-line {
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: aqua;
+}
