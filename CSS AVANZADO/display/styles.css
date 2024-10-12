@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+
+div {
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+a {
+    color: white;
+    background-color: brown;
+    /* block: vuelve de bloque un elemento de linea */
+    /* hace que OCUPE todo el ANCHO disponible y salte una linea*/
+    display: block;
+}
+
+
+/* INLINE: vuelve en linea a elementos de bloque */
+/* el margin y padding solo afectan de manera horizontal */
+.div2 {
+    background-color: black;
+    color: azure;
+    display: inline;
+}
