@@ -1,0 +1,44 @@
+body {
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #f00;
+    margin:auto;
+    margin-top: 50px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    /* Se definen que van a transicionar las propiedades */
+    transition-property: color, background-color;
+    transition-duration: 0.5s;
+}
+
+.box:hover {
+    color: #fff;
+    background-color: #ac1b1b;
+}
+
+
+.box2 {
+    width: 120px;
+    height: 120px;
+    background-color: blue;
+    transition-property: left;
+    transition-duration: 1s;
+    /* Como arranca la transicion y como termina */
+    transition-timing-function: cubic-bezier(.23,.49,.66,.05);
+    position: relative;
+    left: 0%;
+    /* propiedad, duracion, tipo de animacion, delay */
+    /* transition: left 1s cubic-bezier(.23,.49,.66,.05); */
+}
+
+body:hover .box2{
+    left: 200px;
+}
+
+/* GENERADOR DE CURVAS: cubic bezier */
