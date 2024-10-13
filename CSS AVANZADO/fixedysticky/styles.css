@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* FIXED: se posiciona siempre respecto a la ventana */
+/* Cuando hacemos scroll la caja se va a quedar siempre ahí */
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: #f00;
+    position: fixed;
+    bottom: 200px;
+}
+
+.sticky {
+    background-color: blue;
+    top: 20px;
+    position: sticky;
+}
+/* STICKY: a partir de una medida, queda fija */
