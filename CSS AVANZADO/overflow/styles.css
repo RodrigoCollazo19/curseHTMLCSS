@@ -1,0 +1,32 @@
+body {
+    margin: 0%;
+    font-family: sans-serif;
+    background-color: #f3f3f3;
+}
+
+.box {
+    background-color: aqua;
+    width: 220px;
+    height: 220px;
+    color: red;
+    position: relative;
+    left: 0;
+    border: 2px solid black;
+    margin:auto;
+    margin-top: 50px;
+
+    /* Propiedad por defecto */
+    /* overflow: visible; */
+
+    /* Para ocultar el texto sobresaliente */
+    /* overflow: hidden; */
+
+    /* Para agregarle un scroll */
+    /* overflow: scroll; */
+
+    /* Para quitarle el scroll de abajo */
+    /* overflow-x: hidden; */
+
+    /* Para que se ajuste automaticamente el scroll */
+    overflow: auto;
+}
