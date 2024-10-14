@@ -1,0 +1,28 @@
+body {
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+img {
+    width: 400px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 50px;
+    border: 2px solid black;
+
+    /* PROPIEDAD POR DEFECTO */
+    /* Fill: se adapta */
+    /* object-fit: fill; */
+
+    /* Contain: se ajusta por lo menos una vez a la dimension que le dimos, y una de esas dos al menos al 100% */
+    /* object-fit: contain; */
+
+    /* Cover: agranda la imagen para que encaje, no la desproporciona */
+    /* object-fit: cover;
+    object-position: center; */
+
+    /* Mantiene su valor original */
+    /* object-fit: none; */
+
+    /* object-fit: scale-down; */
+}
