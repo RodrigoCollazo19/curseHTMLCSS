@@ -1,0 +1,43 @@
+body {
+    margin: 0%;
+    font-family: sans-serif;
+    background-color: #aaaaaa;
+}
+
+.box {
+    background-color: #fff;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    left: 0;
+    border: 2px solid black;
+    margin:auto;
+    margin-top: 50px;
+    /* DEFINE COMO SE COMPORTAN LOS ESPACIOS EN BLANCO */
+    /* DEFECTO */
+    /* white-space: normal; */
+
+    /* NO SALTO DE LINEA */
+    /* white-space: nowrap; */
+
+    /* Nosotros en HTML definimos el salto de linea */
+    /* white-space: pre; */
+
+    /* white-space: pre-wrap; */
+
+
+    /* OVERFLOW TEXT */
+    /* Pone 3 puntos suspensivos */
+    /* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+
+    /* word-break: break-all; */
+    /* word-break: keep-all; */
+    /* word-break: auto-phrase; */
+    /* overflow-wrap: normal; */
+    text-wrap: pretty;
+    
+    /* PARA TITULOS */
+    /* text-wrap: balance; */
+}
