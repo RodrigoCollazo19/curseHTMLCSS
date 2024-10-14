@@ -1,0 +1,27 @@
+body {
+    margin: 0%;
+    font-family: sans-serif;
+    background-color: #aaaaaa;
+}
+
+.box {
+    background-color: #fff;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    border: 5px solid #000;
+
+    /* OUTLINE */
+    /* No ocupa espacio, solo es visual */
+    outline-width: 10px;
+    outline-color: blue;
+    outline-style: solid;
+    /* cuanto se separa del borde */
+    outline-offset: 10px;
+}
+
+/* Quitarle el outline */
+input:focus-visible {
+    outline: none;
+}
