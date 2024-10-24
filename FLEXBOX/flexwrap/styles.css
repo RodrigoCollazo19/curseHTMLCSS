@@ -1,0 +1,26 @@
+.flexbox {
+    display: flex;
+    /* WRAP: hace un salto de linea */
+    /* Los elementos no se estiran */
+    /* flex-wrap: wrap; */
+
+    /* FLEX-FLOW: Abreviacion que nos permite incluir la flex-direction y flex-wrap  */
+    flex-flow: row nowrap;
+}
+
+.flex-item {
+    color: #Fff;
+    font-size: 40px;
+    background-color: #a22;
+    margin: 10px;
+    text-align: center;
+    width: 150px;
+}
+
+.flex-item:first-child {
+    background-color: #f77;
+}
+
+.flex-item:last-child {
+    background-color: #111;
+}
