@@ -1,0 +1,31 @@
+.flexbox {
+    display: flex;
+    /* JUSTIFY CONTENT: propiedad que alinea items en el eje principal */
+    /* start: en direccion del text */
+    /* end: al final */
+    /* space-beetween: primer elemento al principio, el ultimo al final, y los del medio se distribuyen en el espacio */
+    /* space-around: que tenga el mismo espacio sin que colapse */
+    /* space-evenly: que tenga e mismo espacio pero colapsa */
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    margin: 20px;
+    height: 360px;
+}
+
+.flex-item {
+    color: #Fff;
+    font-size: 40px;
+    background-color: #a22;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+
+.flex-item:first-child {
+    background-color: #f77;
+}
+
+.flex-item:last-child {
+    background-color: #111;
+}
