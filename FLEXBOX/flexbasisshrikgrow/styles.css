@@ -1,0 +1,59 @@
+body {
+    background-color: #c7c7c7;
+}
+
+
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    border: 2px solid black;
+    margin: 20px;
+    height: 360px;
+    background-color: #Fff;
+    /* GAP */
+    /* Para separar elementos flexibles */
+    gap: 20px;
+}
+
+/* PROPIEDAD QUE SE APLICA A LOS HIJOS DE LA CAJA FLEX */
+.flex-item {
+    color: #Fff;
+    font-size: 40px;
+    background-color: #a22;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+
+    /* FLEX SHRINK */
+    /* DEFINE CUANTO SE VAN A ENCOJER LOS ELEMENTOS */
+    /* flex-shrink: 0; */
+
+
+    /* FLEX BASIS */
+    /* TAMAÑO BASE (lo maximo que te podes achicar antes de encojerte)*/
+    /* flex-basis: 150px; */
+    /* flex-grow: 1; */
+
+
+    /* FLEX */
+    /* PROPIEDAD QUE RESUME LAS 3 (GROW, SHRINK, BASES)*/
+    flex: 1 1 200px;
+
+
+    
+}
+
+.flex-item:first-child {
+    /* FLEX GROW */
+    /* PROPIEDAD QUE SE LE DA A UN ELEMENTO HIJO PARA OCUPAR EL ESPACIO DISPONIBLE */
+    /* flex-grow: 1; */
+    background-color: #f77;
+}
+
+.flex-item:last-child {
+    /* flex-grow: 3; */
+    background-color: #111;
+}
