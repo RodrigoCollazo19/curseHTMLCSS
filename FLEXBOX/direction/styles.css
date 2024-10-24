@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+
+}
+
+/* Se alinean y se ajustan */
+/*  La propiedad va en la caja contenedora y afecta a sus elementos */
+.flexbox {
+    display: flex;
+    /* Hacia donde quiero que vayan los elementos */
+    /* Main Axis: puntero hacia donde van los elementos */
+    /* Cross Axis: eje cruzado al main axis */
+    /* El tamaño (si no está definido) va a ocupar todo el cross axis */
+
+
+    /* flex-direction: row-reverse; */
+    flex-direction: column;
+    direction: rtl;
+    /* direction: ltr; o direction: rtl; */
+    /* ltr: left-to-right */
+    /* rtl: right-to-left */
+}
+
+.flex-item {
+    color: #Fff;
+    font-size: 40px;
+    background-color: #a22;
+    margin: 10px;
+    text-align: center;
+}
+
+.flex-item:first-child {
+    background-color: #f77;
+}
+
+.flex-item:last-child {
+    background-color: #111;
+}
