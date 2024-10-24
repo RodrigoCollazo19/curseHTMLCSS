@@ -1,0 +1,29 @@
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* Propiedad para alinear en el eje cruzado */
+    align-items: center;
+    /* Se aplica para multiples lineas  */
+    align-content: center;
+    border: 2px solid black;
+    margin: 20px;
+    height: 360px;
+}
+
+.flex-item {
+    color: #Fff;
+    font-size: 40px;
+    background-color: #a22;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+}
+
+.flex-item:first-child {
+    background-color: #f77;
+}
+
+.flex-item:last-child {
+    background-color: #111;
+}
