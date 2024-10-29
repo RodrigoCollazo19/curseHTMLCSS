@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+}
+
+/* RESPOSIVE PARA IMAGEN */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* RESPOSIVE PARA VIDEO */
+.contenedor {
+    width: 100%;
+    aspect-ratio: 16/9;
+    margin: auto;
+}
+
+video {
+    max-width: 100%;
+}
