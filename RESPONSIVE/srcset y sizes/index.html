@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>SRCSET Y SIZES</title>
+</head>
+<body>
+    <!-- ATRIBUTO SRCSET -->
+    <!-- Sirve para cargar una imagen con menos resolucion y menos calidad para optimizar la pagina segun la resolucion en la que se este mostrando -->
+
+    <!-- SIZES -->
+    <!-- Recomienda los maximos de altura con los que puede trabajar -->
+    <img src="image" srcset="image-small 400w, image-medium 600w, image 1000w" 
+    sizes="(max.width: 400px) 360px, 
+    (max-width: 600) 600px, 900px">
+    <!-- Si tu pantalla es de 400px usa imagen de 360px, si tu pantalla es de 600 usa una imagen de 600px, si no usa una de 900px -->
+</html>
