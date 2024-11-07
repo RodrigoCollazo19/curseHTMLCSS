@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>picturesourcemedia</title>
+</head>
+<body>
+    <!-- PICTURE: etiqueta que sirve para especificar multiples fuentes para una imagen-->
+    <!-- MEDIA: atributo para condicionar -->
+    <picture>
+        <source media="(max-width: 400px)" srcset="imagen-pequeña.png">
+        <source media="(max-width: 600px)" srcset="imagen-mediana.png">
+        <img src="imagen.png">
+    </picture>
+</body>
+</html>
